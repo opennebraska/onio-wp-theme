@@ -16,7 +16,7 @@
 					<a class="nav-item" data-owl="conversations">Conversations</a>
 				</li>
 				<li class="item">
-					<a class="nav-item" data-owl="contactus">Contact Us</a>
+					<a class="nav-item" data-owl="contact">Contact Us</a>
 				</li>
 			</ul>
 		</div>

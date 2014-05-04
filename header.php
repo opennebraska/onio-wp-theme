@@ -14,8 +14,8 @@
 <!-- scripts -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/router/signals.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/router/hasher.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/router/crossroads.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/router/hasher.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
