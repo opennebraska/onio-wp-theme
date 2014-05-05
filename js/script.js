@@ -24,6 +24,8 @@
 		$(navEl).addClass('active');
 		// collapse any expanded accordion panels
 		$('.panel-collapse').removeClass('in');
+		// and remove any selected classes
+		$('.accordion span').removeClass('selected');
 	}
 
 	function setupRoutes() {
@@ -58,7 +60,7 @@
 		// set click event on nav items
 		$('.nav-item').on('click', function(e) {
 			$('.nav-item').removeClass('active');
-			if ($('body').scrollTop() !== 172) {
+			if ($(document).scrollTop() !== 172) {
 				$('body').animate({
 					scrollTop: 172
 				}, 700);
@@ -72,9 +74,21 @@
 		// accordion
 		$('.accordion').collapse();
 
+		$('a[data-toggle]').on('click', function(e) {
+			var backingSpan = $(e.target).closest('span');
+
+			if (!backingSpan.hasClass('selected')) {
+				$('.accordion span').removeClass('selected');
+				backingSpan.addClass('selected');
+			}
+			else {
+				$('.accordion span').removeClass('selected');
+			}
+		});
+
 		// menu affix
 		$(window).scroll(function() {
-			if ($('body').scrollTop() >= 142) {
+			if ($(document).scrollTop() >= 142) {
 				$('#menu-affix').addClass('affixed');
 			}
 			else {

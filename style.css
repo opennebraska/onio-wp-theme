@@ -6,7 +6,7 @@ Author URI: http://github.com/dabedur
 Description: Always a work in progress
 Version: 1.0
 License URI: 4-free
-Tags: onio2014, nebraska, open, owl
+Tags: onio2014, nebraska, open, owl-carousel, data, civic, hacking
 Text Domain: onio2014
 */
 
@@ -22,7 +22,7 @@ Text Domain: onio2014
 
 .affixed {
 	position:fixed;
-	top: 10px;
+	top: 5px;
 	width:100%;
 }
 
@@ -92,8 +92,8 @@ Text Domain: onio2014
 	opacity: 0;
 	margin: 0 auto;
 	background-color: rgb(244,244,244);
-	-webkit-transition: opacity 1200ms ease-in;
-	transition: opacity 1200ms ease-in;
+	-webkit-transition: opacity 1200ms ease-in, height 300ms ease-in;
+	transition: opacity 1200ms ease-in, height 300ms ease-in;
 }
 
 .content {
@@ -135,16 +135,71 @@ Text Domain: onio2014
 	text-align:center;
 }
 
+.panel-title span {
+	transition: background-color 200ms ease-in;
+	-webkit-transition: background-color 200ms ease-in;
+}
+
+a[data-toggle] {
+	color:#232d42;
+	opacity:0.8;
+	transition: font-size 300ms ease-in, color 300ms ease-in, opacity 50ms ease-in;
+	-webkit-transition: font-size 300ms ease-in, color 300ms ease-in, opacity 50ms ease-in;
+}
+
+a[data-toggle]:hover {
+	/*color:#52699b;*/
+	opacity:1.0;
+	text-decoration:none;
+}
+
+.selected {
+	position:relative;
+	padding:8px;
+	background-color:rgba(35, 45, 66, 0.8);
+}
+
+.selected a {
+	opacity:1.0;
+	color: #fff;
+	font-size:20px;
+}
+
+.selected a:hover {
+	opacity:1.0;
+	color:#fff;
+}
+
 .panel-body {
 	border-bottom: 1px solid #52699b;
 	padding-bottom: 50px;
 }
 
-a[data-toggle] {
-	color:#232d42;
+.social {
+	position:relative;
+	bottom:15px;
+	width:25px;
+	height:25px;
+	text-align:center;
+	background-color:rgba(35, 45, 66, 1.0);
 }
 
-a[data-toggle]:hover {
-	color:#52699b;
-	text-decoration:none;
+.social .twitter {
+	background-image:url('./img/Twitter_logo_white.png');
+}
+
+.social .github {
+	background-image:url('./img/GitHub-Mark-Light-64px.png');
+}
+
+.social .meetup {
+	background-image:url('./img/Meetup.png');
+}
+
+.social .eventbrite {
+	background-image:url('./img/eventbrite.png');
+}
+
+.social .project {
+	background-image:url('./img/projectlink.png');
 }
