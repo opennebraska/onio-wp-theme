@@ -239,6 +239,7 @@
 				</div>
 				<div class="segment-content">
 						Some stuff about conversations and jazz.
+						TODO: put in Google Groups WP-plugin.
 				</div>
 			</div>
 			<!-- //// CONTACT -->

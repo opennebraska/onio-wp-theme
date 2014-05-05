@@ -140,9 +140,16 @@ Text Domain: onio2014
 	-webkit-transition: background-color 200ms ease-in;
 }
 
+.panel-body {
+	border-bottom: 1px solid #52699b;
+	padding: 20px 0 50px 0;
+}
+
 a[data-toggle] {
-	color:#232d42;
+	position:relative;
 	opacity:0.8;
+	padding:8px;
+	color:#232d42;
 	transition: font-size 300ms ease-in, color 300ms ease-in, opacity 50ms ease-in;
 	-webkit-transition: font-size 300ms ease-in, color 300ms ease-in, opacity 50ms ease-in;
 }
@@ -153,26 +160,83 @@ a[data-toggle]:hover {
 	text-decoration:none;
 }
 
+/*a[data-toggle]:before, a[data-toggle]:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+a[data-toggle]:before {
+	border: none;
+	border-left: 85px solid transparent;
+	border-top: 70px solid #16a085;
+	border-bottom: 70px solid transparent;
+}*/
+
 .selected {
 	position:relative;
-	padding:8px;
-	background-color:rgba(35, 45, 66, 0.8);
+	padding:0.5em;
+	background-color:rgb(35, 45, 66);
 }
+
+/*.selected:before, .selected:after {
+	content: '';
+	position: absolute;
+	display: block;
+	bottom: -0.65em;
+	border: 1.5em solid #232d42;
+	z-index: -1;
+}
+
+.selected:before {
+   left: -1.55em;
+	border-right-width: 0.75em;
+	border-left-color: transparent;
+	-webkit-box-shadow: rgba(000,000,000,0.4) 0 0 0;
+	-moz-box-shadow: rgba(000,000,000,0.4) 0 0 0;
+	box-shadow: rgba(000,000,000,0.4) 0 0 0;
+}
+
+.selected:after {
+	right: -1.55em;
+	border-left-width: 0.75em;
+	border-right-color: transparent;
+	-webkit-box-shadow: rgba(000,000,000,0.4) -0 0 0;
+	-moz-box-shadow: rgba(000,000,000,0.4) -0 0 0;
+	box-shadow: rgba(000,000,000,0.4) -0 0 0;
+}
+
+.selected a:before, .selected a:after {
+	border-color: #52699b transparent transparent transparent;
+	position: absolute;
+	display: block;
+	border-style: solid;
+	bottom: -0.25em;
+	content: '';
+}
+
+.selected a:before {
+   left: 0;
+   border-width: 0.5em 0 0 0.5em;
+}
+
+.selected a:after {
+   right: 0;
+   border-width: 0.5em 0.5em 0 0;
+}*/
 
 .selected a {
 	opacity:1.0;
 	color: #fff;
 	font-size:20px;
+   	margin:0;
+   	padding: 15px 10px;
 }
 
 .selected a:hover {
 	opacity:1.0;
 	color:#fff;
-}
-
-.panel-body {
-	border-bottom: 1px solid #52699b;
-	padding-bottom: 50px;
 }
 
 .social {

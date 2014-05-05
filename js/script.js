@@ -22,6 +22,7 @@
 		// only set current to active
 		$('.nav-item').removeClass('active');
 		$(navEl).addClass('active');
+		// if(owl.currentItem.El.find('.accordion')) // TODO - if current has accordion, add class 'in' to first item in accordion
 		// collapse any expanded accordion panels
 		$('.panel-collapse').removeClass('in');
 		// and remove any selected classes
