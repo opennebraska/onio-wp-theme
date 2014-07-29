@@ -10,6 +10,24 @@ Tags: onio2014, nebraska, open, owl-carousel, data, civic, hacking
 Text Domain: onio2014
 */
 
+html {
+	background:url('./img/mooning.png') repeat;
+}
+
+body {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:none;
+}
+
+.credits-bottom {
+	position:absolute;
+	bottom:0;
+	left:30px;
+	color:black;
+}
+
 .show-opacity {
 	opacity:0.8 !important;
 }
@@ -176,7 +194,10 @@ a[data-toggle]:before {
 
 .selected {
 	position:relative;
-	padding:0.5em;
+	padding: 8px 0 8px 0;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 	background-color:rgb(35, 45, 66);
 }
 
@@ -267,3 +288,116 @@ a[data-toggle]:before {
 .social .project {
 	background-image:url('./img/projectlink.png');
 }
+
+/*
+	Media-queries for Mobile 
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	body {
+		background: none;
+	}
+
+	.background img {
+		display: none;
+		content: '';
+	}
+
+	.background {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: url('./img/i80.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	.menu-container {
+		top: 15px;
+	}
+
+	.on-logo {
+		height: 72px;
+		background-size: 320px 108px;
+	}
+
+	.menu {
+		width: 90%;
+		bottom: 10px;
+	}
+
+	.nav {
+		font-size: 9px;
+	}
+
+	.nav-item {
+		padding: 5px;
+	}
+	
+	.segment-title span {
+		left: 0;
+	}
+
+	.segment {
+		text-align:center;
+		padding: 40px 40px 20px 40px;
+	}
+
+	.selected a {
+		font-size: 15px;
+		letter-spacing: -0.5px;
+		white-space: nowrap;
+	}
+
+	.panel-title {
+		font-size: 14px;
+	}
+
+	.panel-body {
+		font-size: 12px;
+	}
+
+	.content {
+		max-height:420px;
+		padding: 0;
+	}
+
+	.content-container {
+		top: 125px;
+		width: 90%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.segment-content {
+		line-height: 26px;
+		padding-top: 1.5em;
+		font-size: 14px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
