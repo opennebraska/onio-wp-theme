@@ -10,7 +10,10 @@
     </div>
     <div id="meetupsCollapse" class="panel-collapse collapse">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        Every third Thursday of the month Open Nebraska meets up to discuss current activies, projects, and efforts. These meetings are open to public
+        and we encourage anyone interested in open civic data, making their community better, code, or pizza and beer to come hang out.
+
+        These meetups are held at Aviture Inc. (google maps link) through the end of 2014.
       </div>
       <div class="links">
       	<span class="social meetup"></span>

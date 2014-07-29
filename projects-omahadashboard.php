@@ -10,7 +10,9 @@
     </div>
     <div id="OCDCollapse" class="panel-collapse collapse">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+         This community-based dashboard for the City of Omaha dash is to keep citizens informed and convey a story through data,
+         highlighting opportunities for improvement within our communities. Ultimately, the dashboard will give the public the ability to reference, 
+         interact with, and correlate public data sets in a visually powerful way.
       </div>
        <div class="links">
        	No Links Currently

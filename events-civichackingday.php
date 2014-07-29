@@ -3,14 +3,19 @@
       <h4 class="panel-title">
 		<span>
 			<a data-toggle="collapse" data-parent="#events-accordion" href="#NDCHCollapse">
-          	National Day of Civic Hacking
+          	NDoCH
         	</a>
         </span>
       </h4>
     </div>
     <div id="NDCHCollapse" class="panel-collapse collapse">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        National Day of Civic Hacking (NDoCH) is an international event that takes place the first weekend in June in over 80 cities around the world.
+         The event brings together citizens, software developers, and entrepreneurs to collaboratively create, build, and invent new solutions using publicly-released data, 
+         code and technology to improve our communities and the governments that serve them. 
+         Anyone can participate; you don’t have to be an expert in technology, you just have to care about your neighborhood and community.
+ 
+        In 2014, Open Nebraska will join brigades and organizations around the world in celebrating the NDoCH, with the first annual Community Tech Party in the Park (link).
       </div>
       <div class="links">
       	<span class="social eventbrite"></span>

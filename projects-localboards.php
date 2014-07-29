@@ -10,7 +10,13 @@
     </div>
     <div id="localBoardsCollapse" class="panel-collapse collapse">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        - Winner of Hack Omaha III
+        - Local Boards is a simple to use platform for local government and nonprofits to publish their public board information online. 
+        - Great place to search all the local boards in your area
+        - Find out if there are any current open seats for board positions you would be interested in serving
+        -  FInd out the qualifications to be on the board and upcoming events 
+        - Currently local to Douglas County Nebraska and looking to expand with more civic locations and include NonProfits. 
+        - Learn the synopsis of how Local Boards was created and the team behind it (here). 
       </div>
       <div class="links">
       	<span class="social project"></span>
