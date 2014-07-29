@@ -16,9 +16,16 @@
 		onio.owl = $('.content').data('owlCarousel');
 	}
 
+	function setHashSilently(hash) {
+		hasher.changed.active = false;
+		hasher.setHash(hash);
+		hasher.changed.active = true;
+	}
+
 	function handleAfterMove() {
 		var current = onio.owl.owl.currentItem,
-			navEl = $('a[data-owl]')[current - 1];
+			navEl = $('a[data-owl]')[current - 1],
+			toState = $(navEl).attr('data-owl');
 		// only set current to active
 		$('.nav-item').removeClass('active');
 		$(navEl).addClass('active');
@@ -27,6 +34,8 @@
 		$('.panel-collapse').removeClass('in');
 		// and remove any selected classes
 		$('.accordion span').removeClass('selected');
+		// set hash to toState silently
+		setHashSilently(toState);
 	}
 
 	function setupRoutes() {
@@ -66,15 +75,17 @@
 					scrollTop: 172
 				}, 700);
 			}
-			var item = $(e.target).attr('data-owl');
+			// grab to state
+			var toState = $(e.target).attr('data-owl');
 			// set hash and let it take care of state
-			hasher.setHash(item);
+			hasher.setHash(toState);
 			$(e.target).addClass('active');
 		});
 
-		// accordion
+		// accordion init
 		$('.accordion').collapse();
 
+		// accordion title class toggling
 		$('a[data-toggle]').on('click', function(e) {
 			var backingSpan = $(e.target).closest('span');
 
