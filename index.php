@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <!-- <section id="content" role="main"> -->
 <div class="background">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/i80.jpg" />
 	</div>
 	<?php get_template_part('nav', 'top'); ?>
 	<div class="content-container">

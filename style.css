@@ -32,10 +32,12 @@ body {
 	opacity:0.8 !important;
 }
 
-.background img {
-	position:absolute;
-	width:100%;
-	height: auto;
+.background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url('../img/i80.jpg') no-repeat center;
+	background-size: cover;
 }
 
 .affixed {
@@ -96,6 +98,7 @@ body {
 	background-image: url("./img/openne.svg");
 	background-position: center;
 	background-repeat:no-repeat;
+	background-size: contain;
 	width:100%;
 	height:108px;
 	cursor:pointer;
@@ -293,26 +296,10 @@ a[data-toggle]:before {
 	Media-queries for Mobile 
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 640px) {
 
 	body {
-		background: none;
-	}
-
-	.background img {
-		display: none;
-		content: '';
-	}
-
-	.background {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background: url('./img/i80.jpg') no-repeat center center fixed;
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
+		overflow: hidden;
 	}
 
 	.menu-container {
@@ -343,7 +330,7 @@ a[data-toggle]:before {
 
 	.segment {
 		text-align:center;
-		padding: 40px 40px 20px 40px;
+		padding: 40px 20px 20px 20px;
 	}
 
 	.selected a {
@@ -361,15 +348,20 @@ a[data-toggle]:before {
 	}
 
 	.content {
-		max-height:420px;
 		padding: 0;
 	}
 
 	.content-container {
 		top: 125px;
-		width: 90%;
+		width: 100%;
+		max-height: 100%;
 		padding-top: 5px;
 		padding-bottom: 5px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		overflow: auto;
 	}
 
 	.segment-content {
